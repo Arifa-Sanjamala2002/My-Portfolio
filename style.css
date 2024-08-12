@@ -1,0 +1,267 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #09203a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #12D640;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styles */
+.header-tops {
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-tops h1 a {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-tops h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nav-menu ul li {
+    margin: 0 10px;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.nav-menu ul li a:hover {
+    background-color: #12D640;
+    color: #000;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #12D640;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+
+}
+
+.section-title h2 {
+    font-size: 32px;
+    color: #12D640;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.about-me p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-me ul {
+    padding-left: 0;
+}
+
+.about-me ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.about-me ul li i {
+    color: #12D640;
+    margin-right: 10px;
+}
+
+/* Education Section */
+#education {
+    background-color: #081229;
+    padding: 60px 0;
+}
+
+.icon-box {
+    background-color: #0c1a34;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.icon-box img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.icon-box h4 {
+    color: #12D640;
+    margin-bottom: 10px;
+}
+
+.icon-box p,
+.icon-box h5,
+.icon-box h6,
+.icon-box ul li {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #09203a;
+    padding: 60px 0;
+}
+
+.portfolio-wrap {
+    background-color: #000;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.portfolio-wrap img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.portfolio-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+}
+
+.portfolio-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-links a {
+    color: #12D640;
+    font-size: 28px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.portfolio-links a:hover {
+    color: #fff;
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+}
+
+.icon-box {
+    padding: 20px;
+    background-color: #0c1a34;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.icon-box h4 {
+    color: #12D640;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-box p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.icon-box p img {
+    margin: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #081229;
+    padding: 60px 0;
+}
+
+.contact .info-box {
+    background-color: #0c1a34;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact .info-box i {
+    font-size: 36px;
+    color: #12D640;
+    margin-bottom: 10px;
+}
+
+.contact .info-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact .info-box p {
+    color: #fff;
+    margin-bottom: 5px;
+}
